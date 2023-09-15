@@ -1,3 +1,7 @@
+export const metadata = {
+    title: 'Sayfa Bulunamadı',
+    description: 'Sayfa Bulunamadı Est aute esse adipisicing nulla ad enim id.',
+}
 export default function NotFound() {
     return (
         <div className='notFound'>
