@@ -13,6 +13,9 @@ function ContactPageForm() {
 
         if (nameFilter !== '' && mailValue !== '' && messageFilter !== '') {
             alert('Mesajınız başarıyla gönderildi')
+            setNameValue('')
+            setMailValue('')
+            setMessage('')
         } else {
             alert('Hata: Doldurulması zorunlu alanlar boş bırakılamaz!')
         }
