@@ -1,0 +1,4 @@
+.booksPage>div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    padding: 50px 0;
+    border-top: 1px solid #dedede;
+    color: #686868;
+}
+
+.footer>div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer>div>div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.footer>div>div span {
+    margin-right: 10px;
+}

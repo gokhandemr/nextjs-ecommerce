@@ -1,0 +1,52 @@
+.categories {
+    text-align: center;
+    margin: 20px 0 30px;
+    padding-top: 30px;
+}
+
+.categories nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categories nav button {
+    padding: 10px 20px;
+    background-color: #dedede;
+    border-radius: 3px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.tharThree {
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.tharThree:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.tharThree:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+
+.tharThree:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    background: #d54242;
+    border-radius: 3px;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}

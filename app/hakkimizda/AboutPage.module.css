@@ -1,0 +1,39 @@
+.aboutPage {
+    margin: 40px 0;
+}
+
+.aboutPage>div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutPage>div>div:last-child {
+    width: 50%;
+}
+
+.aboutPage p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.AboutImg {
+    width: 45%;
+    height: auto;
+    position: relative;
+}
+
+.AboutImg img {
+    object-fit: cover;
+    border-radius: 15px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    .AboutImg {
+        display: none;
+    }
+
+    .aboutPage>div>div:last-child {
+        width: 100%;
+    }
+}

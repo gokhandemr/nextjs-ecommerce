@@ -1,0 +1,92 @@
+[
+    {
+        "id": 0,
+        "fiyat": 75,
+        "yazar": "İlber Ortaylı",
+        "title": "İnsan Geleceğini Nasıl Kurar?",
+        "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001964570001-1.jpg",
+        "url": "insan-gelecegi",
+        "kategori": "Kişisel Gelişim"
+    },
+    {
+        "id": 1,
+        "fiyat": 57,
+        "yazar": "İlber Ortaylı",
+        "title": "İlber Ortaylı Seyahatnamesi",
+        "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001686477001-1.jpg",
+        "url": "seyahatname",
+        "kategori": "Gezi"
+    },
+    {
+        "id": 2,
+        "fiyat": 69,
+        "yazar": "İlber Ortaylı",
+        "title": "İmparatorluğun En Uzun Yüzyılı",
+        "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001744876001-1.jpg",
+        "url": "imparatorluk",
+        "kategori": "Tarih"
+    },
+    {
+        "id": 3,
+        "fiyat": 48,
+        "yazar": "İlber Ortaylı",
+        "title": "Türklerin Tarihi - Orta Asya'nın Bozkırlarından Avrupa'nın Kapılarına",
+        "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001998120001-1.jpg",
+        "url": "turklerin-tarihi",
+        "kategori": "Tarih"
+    },
+    {
+        "id": 4,
+        "fiyat": 90,
+        "yazar": "İlber Ortaylı",
+        "title": "Yakın Tarihin Gerçekleri",
+        "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001912080001-1.jpg",
+        "url": "yakin-tarih",
+        "kategori": "Tarih"
+    },
+    {
+        "id": 5,
+        "fiyat": 409,
+        "yazar": "Murat Bardakçı",
+        "title": "Şahbaba",
+        "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001913939001-1.jpg",
+        "url": "sahbaba",
+        "kategori": "Tarih"
+    },
+    {
+        "id": 6,
+        "fiyat": 409,
+        "yazar": "Murat Bardakçı",
+        "title": "Enver",
+        "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0002072091001-1.jpg",
+        "url": "enver",
+        "kategori": "Tarih"
+    },
+    {
+        "id": 7,
+        "fiyat": 100,
+        "yazar": "Işıl Işık",
+        "title": "Bodrum Katı",
+        "hakkinda": "In veniam aliquip sunt ex. Magna laboris cupidatat excepteur deserunt.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001964634001-1.jpg",
+        "url": "bodrum",
+        "kategori": "Polisiye"
+    },
+    {
+        "id": 8,
+        "fiyat": 450,
+        "yazar": "J. R. R. Tolkien",
+        "title": "Yüzüklerin Efendisi",
+        "hakkinda": "Ex enim Lorem ullamco enim adipisicing laboris esse dolor consectetur veniam amet. Irure minim irure cillum dolor minim incididunt eiusmod nisi minim pariatur sit incididunt. In veniam aliquip sunt ex. Magna laboris cupidatat excepteur deserunt.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0000000113094-1.jpg",
+        "url": "yuzuklerin-efendisi",
+        "kategori": "Fantastik"
+    }
+]

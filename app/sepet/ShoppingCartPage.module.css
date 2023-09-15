@@ -1,0 +1,121 @@
+.cartPage {
+    margin: 40px 0 90px;
+}
+
+.cartPage>div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartPage>div>div:first-child {
+    width: 70%;
+}
+
+.cartPage h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cartPage ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cartPage ul li {
+    width: calc(50% - 10px);
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.cartPage ul li>div>h4:first-child {
+    margin-bottom: 10px;
+}
+
+.cartPage ul li>div>p {
+    margin-bottom: 20px;
+}
+
+.cartPage ul li img {
+    margin-right: 20px;
+}
+
+
+.cartPage>div>div:nth-child(2) {
+    width: 25%;
+    border: 1px solid #dedede;
+    padding: 10px;
+}
+
+.cartPage>div>div:nth-child(2)>p {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartPage>div>div:nth-child(2)>p:nth-child(5) {
+    font-weight: bold;
+    border-top: 1px solid #dedede;
+    padding-top: 20px;
+    margin: 20px 0;
+}
+
+.cartPage h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.deleteButton {
+    padding: 2px 7px;
+    background: rgb(211, 111, 111);
+    color: rgb(71, 1, 1);
+    border: none;
+    border-radius: 3px;
+}
+
+.completedButton {
+    background: rgb(119, 219, 119);
+    color: rgb(3, 59, 3);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.allDeleteButton {
+    color: #000;
+    text-align: right;
+    width: 100%;
+}
+
+.allDeleteButton button {
+    margin-top: 20px;
+    background: none;
+    border: none;
+}
+
+.allDeleteButton button:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 769px) {
+    .cartPage>div:first-child {
+        flex-wrap: wrap;
+    }
+
+    .cartPage>div>div:first-child {
+        width: 100%;
+    }
+
+    .cartPage>div>div:nth-child(2) {
+        width: 100%;
+    }
+
+    .cartPage ul li {
+        width: 100%;
+    }
+}

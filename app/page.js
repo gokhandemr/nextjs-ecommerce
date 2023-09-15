@@ -1,7 +1,11 @@
-export default function Home() {
+import Banner from "@/components/banner/Banner";
+import ProductsList from "@/components/products/ProductsList";
+
+export default async function Home() {
   return (
-    <main>
-      <p>asfafs</p>
-    </main>
+    <>
+      <Banner />
+      <ProductsList />
+    </>
   )
 }

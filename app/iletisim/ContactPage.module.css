@@ -1,0 +1,71 @@
+.contactPage {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.contactPage>div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactPage>div:first-child>div:first-child {
+    width: 45%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactPage img {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.contactPage>div:last-child>form {
+    width: 50%;
+}
+
+.contactPage h2 {
+    margin-bottom: 20px;
+}
+
+.contactPage input,
+.contactPage textarea {
+    width: 100%;
+    border: 1px solid #ababab;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contactPage textarea {
+    height: 100px;
+}
+
+.contactPage input::placeholder,
+.contactPage textarea::placeholder {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.contactPage button {
+    background-color: #0e0e0e;
+    padding: 7px 17px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contactPage p {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .contactPage>div:first-child>div:first-child {
+        display: none;
+    }
+
+    .contactPage>div:last-child>form {
+        width: 100%;
+    }
+}
