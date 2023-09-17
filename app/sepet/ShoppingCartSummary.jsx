@@ -19,13 +19,13 @@ function ShoppingCartSummary() {
         return price;
     }
 
-
     const allDeleteFunction = () => {
         if (confirm('Sepetinizdeki tüm ürünler çıkarılacak onaylıyor musunuz ?')) {
             deleteProduct([])
             alert('Ürünler çıkartıldı.')
         }
     }
+
     const completedFunction = () => {
         if (products.length <= 0) {
             alert('Hata: Sepetiniz boş olamaz.')

@@ -16,14 +16,15 @@ function Banner() {
                     style={{ position: 'absolute' }}
                     fill
                     alt='bookstore' />
-                <Image
-                    src={bannerIMGBottom}
-                    alt='bookstore-bottom'
-                    className={styles.bannerIMGBottom}
-                    style={{ width: '100%', height: '15px' }}
-                    placeholder='blur'
-                    blurDataURL='../../images/blur.jpg'
-                />
+                <div className={styles.bannerIMGBottom}>
+                    <Image
+                        src={bannerIMGBottom}
+                        alt='bookstore-bottom'
+                        fill
+                        placeholder='blur'
+                        blurDataURL='../../images/blur.jpg'
+                    />
+                </div>
             </div>
 
             <div className={`container ${styles.bannerContainer}`}>

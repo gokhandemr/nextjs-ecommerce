@@ -29,11 +29,16 @@ a {
   margin: auto;
 }
 
-.notFound {
+.notFound,
+.errorPage,
+.loadingPage {
   margin: 50px 0
 }
 
-.notFound h2 {
+.notFound h2,
+.loadingPage h2,
+.errorPage h2,
+.errorPage p {
   margin-bottom: 20px;
 }
 

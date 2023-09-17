@@ -1,6 +1,6 @@
 'use client'
-import { productsStore } from '@/stores/index'
 import Link from 'next/link'
+import { productsStore } from '@/stores/index'
 import { useEffect, useState } from 'react'
 
 function HeaderShoppingBag() {

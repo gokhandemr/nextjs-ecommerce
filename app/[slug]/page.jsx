@@ -15,7 +15,6 @@ export async function generateMetadata({ params }) {
     };
 }
 
-
 function SinglePage({ params }) {
     const filterProducts = products.filter(item => item.url === params.slug.toString())
     if (filterProducts.length <= 0) { notFound() }
@@ -28,11 +27,13 @@ function SinglePage({ params }) {
                     <>
                         <div className={styles.bookIMG}>
                             <Image
+                                placeholder='blur'
+                                blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII='
                                 src={image}
                                 alt={title}
                                 width={202}
                                 height={270}
-                                priority
+
                             />
                         </div>
                         <div className={styles.bookDetails}>

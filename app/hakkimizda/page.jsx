@@ -17,7 +17,7 @@ function AboutPage() {
                         src={AboutImage}
                         alt='kitaplar.com'
                         placeholder='blur'
-                        blurDataURL='../../images/blur.jpg'
+                        blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII='
                         width={0}
                         height={0}
                         style={{ width: '100%', height: 'auto' }}

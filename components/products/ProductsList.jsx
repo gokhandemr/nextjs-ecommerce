@@ -7,7 +7,7 @@ import Categories from '../categories/Categories'
 
 function ArticleList() {
     const [categories, setCategories] = useState('all')
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState(productsData)
 
     useEffect(() => {
         if (categories === 'all') {
@@ -17,7 +17,6 @@ function ArticleList() {
             setProducts(filtered)
         }
     }, [categories])
-
 
     return (
         <>

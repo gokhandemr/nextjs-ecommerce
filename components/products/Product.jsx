@@ -16,31 +16,26 @@ function Product({ title, fiyat, image, hakkinda, url, id }) {
     }
 
     return (
-        <>
-            <article className={styles.product}>
-                <Link href={'/' + url}>
-                    <div className={styles.zoomLimit}>
-                        <Image
-                            src={image}
-                            alt={title}
-                            width={180}
-                            height={280}
-                            placeholder='blur'
-                            blurDataURL='../../images/blur.jpg'
-                        />
-                    </div>
-
-                    <h3>{title}</h3>
-                    <p>{hakkinda.slice(0, 70)}...</p>
-                </Link>
-                <div>
-                    <span>{fiyat} ₺</span>
-                    <button onClick={() => (addProduc(productDetails))}>Sepete ekle </button>
+        <article className={styles.product}>
+            <Link href={'/' + url}>
+                <div className={styles.zoomLimit}>
+                    <Image
+                        src={image}
+                        alt={title}
+                        width={180}
+                        height={280}
+                        placeholder='blur'
+                        blurDataURL='../../images/blur.jpg'
+                    />
                 </div>
-            </article>
-        </>
-
-
+                <h3>{title}</h3>
+                <p>{hakkinda.slice(0, 70)}...</p>
+            </Link>
+            <div>
+                <span>{fiyat} ₺</span>
+                <button onClick={() => (addProduc(productDetails))}>Sepete ekle </button>
+            </div>
+        </article>
     )
 }
 

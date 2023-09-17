@@ -11,7 +11,6 @@ export const metadata = {
 
 function ContactPage() {
 
-
     return (
         <div className={styles.contactPage}>
             <div className='container'>
@@ -21,7 +20,7 @@ function ContactPage() {
                         alt='contact-page'
                         style={{ width: '100%', height: 'auto' }}
                         placeholder='blur'
-                        blurDataURL='../../images/blur.jpg' />
+                        blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=' />
                 </div>
                 <ContactPageForm />
             </div>

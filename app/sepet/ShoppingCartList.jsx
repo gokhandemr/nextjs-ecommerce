@@ -29,7 +29,7 @@ function ShoppingCartList() {
                         <Image
                             src={item.image}
                             placeholder='blur'
-                            blurDataURL={'../../images/blur.jpg'}
+                            blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII='
                             alt={item.title}
                             width={70}
                             height={100} />
