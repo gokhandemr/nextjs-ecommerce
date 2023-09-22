@@ -2,13 +2,13 @@
 import React from 'react'
 import { productsStore } from '@/stores'
 
-function SinglePageButton({ fiyat, yazar, title, hakkinda, image, id }) {
+function SinglePageButton({ fiyat, urlAdresi, title, hakkinda, image, id }) {
     const { addProduct } = productsStore()
     const timeStamp = new Date().valueOf();
 
     const addFunction = (id) => {
         alert(title + ' sepete eklendi.')
-        addProduct({ fiyat, yazar, title, hakkinda, image, id, timeStamp });
+        addProduct({ fiyat, urlAdresi, title, hakkinda, image, id, timeStamp });
     }
 
     return (

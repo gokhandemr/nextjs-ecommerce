@@ -6,7 +6,7 @@ import styles from './SinglePage.module.css'
 import SinglePageButton from './SinglePageButton';
 
 export async function generateMetadata({ params }) {
-    const filterProducts = products.filter(item => item.url === params.slug.toString())
+    const filterProducts = products.filter(item => item.urlAdresi === params.slug.toString())
     if (filterProducts.length <= 0) { notFound() }
 
     return {
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }) {
 }
 
 function SinglePage({ params }) {
-    const filterProducts = products.filter(item => item.url === params.slug.toString())
+    const filterProducts = products.filter(item => item.urlAdresi === params.slug.toString())
     if (filterProducts.length <= 0) { notFound() }
     const { fiyat, yazar, title, hakkinda, image, id } = filterProducts[0]
 

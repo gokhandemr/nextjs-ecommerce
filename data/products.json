@@ -6,7 +6,7 @@
         "title": "İnsan Geleceğini Nasıl Kurar?",
         "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001964570001-1.jpg",
-        "url": "insan-gelecegi",
+        "urlAdresi": "insan-gelecegi",
         "kategori": "Kişisel Gelişim"
     },
     {
@@ -16,7 +16,7 @@
         "title": "İlber Ortaylı Seyahatnamesi",
         "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001686477001-1.jpg",
-        "url": "seyahatname",
+        "urlAdresi": "seyahatname",
         "kategori": "Gezi"
     },
     {
@@ -26,7 +26,7 @@
         "title": "İmparatorluğun En Uzun Yüzyılı",
         "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001744876001-1.jpg",
-        "url": "imparatorluk",
+        "urlAdresi": "imparatorluk",
         "kategori": "Tarih"
     },
     {
@@ -36,7 +36,7 @@
         "title": "Türklerin Tarihi - Orta Asya'nın Bozkırlarından Avrupa'nın Kapılarına",
         "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001998120001-1.jpg",
-        "url": "turklerin-tarihi",
+        "urlAdresi": "turklerin-tarihi",
         "kategori": "Tarih"
     },
     {
@@ -46,7 +46,7 @@
         "title": "Yakın Tarihin Gerçekleri",
         "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001912080001-1.jpg",
-        "url": "yakin-tarih",
+        "urlAdresi": "yakin-tarih",
         "kategori": "Tarih"
     },
     {
@@ -56,7 +56,7 @@
         "title": "Şahbaba",
         "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001913939001-1.jpg",
-        "url": "sahbaba",
+        "urlAdresi": "sahbaba",
         "kategori": "Tarih"
     },
     {
@@ -66,7 +66,7 @@
         "title": "Enver",
         "hakkinda": "Laboris aliqua exercitation Lorem aliquip amet. Minim tempor aute excepteur nostrud non proident officia dolor consectetur sunt labore est ut.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0002072091001-1.jpg",
-        "url": "enver",
+        "urlAdresi": "enver",
         "kategori": "Tarih"
     },
     {
@@ -76,7 +76,7 @@
         "title": "Bodrum Katı",
         "hakkinda": "In veniam aliquip sunt ex. Magna laboris cupidatat excepteur deserunt.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001964634001-1.jpg",
-        "url": "bodrum",
+        "urlAdresi": "bodrum",
         "kategori": "Polisiye"
     },
     {
@@ -86,7 +86,7 @@
         "title": "Yüzüklerin Efendisi",
         "hakkinda": "Ex enim Lorem ullamco enim adipisicing laboris esse dolor consectetur veniam amet. Irure minim irure cillum dolor minim incididunt eiusmod nisi minim pariatur sit incididunt. In veniam aliquip sunt ex. Magna laboris cupidatat excepteur deserunt.",
         "image": "https://i.dr.com.tr/cache/500x400-0/originals/0000000113094-1.jpg",
-        "url": "yuzuklerin-efendisi",
+        "urlAdresi": "yuzuklerin-efendisi",
         "kategori": "Fantastik"
     }
 ]

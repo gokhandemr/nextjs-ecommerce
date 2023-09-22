@@ -5,11 +5,12 @@ import styles from './Products.module.css'
 import Link from 'next/link'
 import { productsStore } from '@/stores/index'
 
-function Product({ title, fiyat, image, hakkinda, url, id }) {
+function Product({ title, fiyat, image, hakkinda, urlAdresi, id }) {
     const { addProduct } = productsStore()
     const timeStamp = new Date().valueOf();
 
-    const productDetails = { title, fiyat, image, hakkinda, url, id, timeStamp }
+    const productDetails = { title, fiyat, image, hakkinda, urlAdresi, id, timeStamp }
+
     const addProduc = (productDetails) => {
         addProduct(productDetails)
         alert(title + ' sepete eklendi')
@@ -17,7 +18,7 @@ function Product({ title, fiyat, image, hakkinda, url, id }) {
 
     return (
         <article className={styles.product}>
-            <Link href={'/' + url}>
+            <Link href={'/' + urlAdresi}>
                 <div className={styles.zoomLimit}>
                     <Image
                         src={image}

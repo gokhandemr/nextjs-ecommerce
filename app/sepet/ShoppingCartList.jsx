@@ -25,7 +25,7 @@ function ShoppingCartList() {
         <ul>
             {isWindow && products.length > 0 ? products.map((item, index) => (
                 <li key={index}>
-                    <Link href={'/' + item.url}>
+                    <Link href={'/' + item.urlAdresi}>
                         <Image
                             src={item.image}
                             placeholder='blur'
